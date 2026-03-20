@@ -54,9 +54,9 @@ async def any_reply(message: Message):
             boss_messages[replied_id]["replied"] = True
 
 async def auto_reply_loop(message_id):
-    timings = [4, 4, 4, 60, 60, 60, 4*60]
+    timings = [2*60, 3*60, 4*60, 60, 60, 60, 2*60]
     texts = [
-        "Ответа не было",
+        "Будет ответ?",
         "Напоминаю, ответа не было",
         "Все ещё нет ответа",
         "Напоминаю ещё раз",

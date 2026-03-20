@@ -4,8 +4,8 @@ from aiogram.types import Message
 from aiogram.enums import ParseMode
 from aiogram.filters import BaseFilter
 
-API_TOKEN = '8681478738:AAFbHzckzVQdEqRdHsgmtqjwRoKnHTnaAlg'
-BOSS_ID = 115023072  # Telegram ID шефа
+API_TOKEN = '8761148847:AAHVn5lfWyQLs9wCpiLNgihLBD3MjX6zp5g'
+BOSS_ID = 350908666  # Telegram ID шефа
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
@@ -62,7 +62,7 @@ async def auto_reply_loop(message_id):
         "Напоминаю ещё раз",
         "Напоминаю ещё раз",
         "Напоминаю ещё раз",
-        "Штраф 5000 рублей"
+        "Штраф 2000 рублей"
     ]
     data = boss_messages.get(message_id)
     if not data:
